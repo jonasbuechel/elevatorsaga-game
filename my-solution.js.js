@@ -1,5 +1,9 @@
 {
     init: function(elevators, floors) {
+        
+        //NEXT IMPROVEMENT!
+        //PROBLEM: elevator goes to levels in sort of pushed buttons, which isn't verry efficient
+        //SOLUTION: clear goto queue and build new queue after a passenger has pushed a level button inside the elevator
 
         var getElevatorWithSmallestLoad = function(){
 
